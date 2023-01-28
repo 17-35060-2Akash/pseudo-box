@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color: red;
+        }
+
+        h1:hover {
+            color: whitesmoke;
+            background-color: blueviolet;
+        }
+
+        input {
+            display: block;
+            margin: 20px;
+        }
+
+        .middle:focus {
+            color: rebeccapurple;
+            font-weight: 700;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        li:first-child {
+            color: cadetblue;
+        }
+
+        li:last-child {
+            background-color: aqua;
+        }
+
+        li:nth-child(2n+1) {
+            background-color: rgb(3, 88, 60);
+        }
+
+        li:nth-child(2n) {
+            background-color: rgb(9, 238, 162);
+        }
+
+        h3::before {
+            content: 'Hi, ';
+        }
+
+        h3::after {
+            content: ', bye!';
+            background-color: rgb(142, 191, 234);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is not normal</h1>
+    <input type="text">
+    <input class="middle" type="text">
+    <input type="text">
+
+    <a href="google.com">Google a jao</a>
+    <a href="twitter.com">Twitter a jao</a>
+    <a href="https://www.facebook.com/">Facebook a jao</a>
+    <ul>
+        <li>Yammy</li>
+        <li>Katrina</li>
+        <li>Nargis</li>
+        <li>Tabbu</li>
+        <li>Shonali</li>
+        <li>Alia</li>
+    </ul>
+
+    <h3>Middle Size Header-1</h3>
+    <h3>Middle Size Header-2</h3>
+    <h3>Middle Size Header-3</h3>
+    <h3>Middle Size Header-4</h3>
+    <h3>Middle Size Header-5</h3>
+    <h3>Middle Size Header-6</h3>
+
+
+
+</body>
+
+</html>
